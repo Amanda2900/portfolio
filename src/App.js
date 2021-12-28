@@ -1,14 +1,19 @@
+import React from 'react'
+import './App.css';
 import Header from './components/header'
 import Bio from './components/bio'
 import Projects from './components/projects'
-import './App.css';
+import Contact from './components/contact'
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Bio />
-      <Projects />
+      <main>
+        <Bio />
+        <Projects />
+        <Contact />
+      </main>
     </div>
   );
 }
