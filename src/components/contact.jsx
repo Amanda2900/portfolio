@@ -1,4 +1,4 @@
-import React from 'react' 
+import React from 'react';
 
 function Contact() {
   return (
@@ -10,7 +10,7 @@ function Contact() {
         <a href="https://github.com/Amanda2900"><h3>GitHub</h3></a>
       </div>
     </section>  
-  )
+  );
 }
 
 export default Contact;

@@ -1,7 +1,7 @@
-import React from 'react' 
-import SS1 from '../assets/la-screenshot.png'
-import SS2 from '../assets/tl-screenshot.png'
-import SS3 from '../assets/pf-screenshot.png'
+import React from 'react';
+import SS1 from '../assets/la-screenshot.png';
+import SS2 from '../assets/tl-screenshot.png';
+import SS3 from '../assets/pf-screenshot.png';
 
 function Projects() {
   return (
@@ -38,7 +38,7 @@ function Projects() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 export default Projects;

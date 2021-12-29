@@ -1,5 +1,5 @@
-import React from 'react' 
-import image from '../assets/profile-pic.jpg'
+import React from 'react';
+import image from '../assets/profile-pic.jpg';
 
 function Bio() {
   return (
@@ -17,7 +17,7 @@ function Bio() {
         </p>
       </div>
     </section>
-  )
+  );
 }
 
 export default Bio;

@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
 import './App.css';
-import Header from './components/header'
-import Bio from './components/bio'
-import Projects from './components/projects'
-import Contact from './components/contact'
-import Footer from './components/footer'
+import Header from './components/header';
+import Bio from './components/bio';
+import Projects from './components/projects';
+import Contact from './components/contact';
+import Footer from './components/footer';
 
 function App() {
   return (
