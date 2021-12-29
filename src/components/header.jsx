@@ -3,10 +3,11 @@ import resume from '../assets/Amanda_DiNoto_resume.pdf';
 import './header.css';
 
 function Header() {
-  const [scrolled,setScrolled]=React.useState(false);
 
-  const handleScroll=() => {
-    const offset=window.scrollY;
+  const [scrolled, setScrolled] = React.useState(false);
+
+  const handleScroll = () => {
+    const offset = window.scrollY;
     if(offset > 320 ){
       setScrolled(true);
     }
@@ -18,7 +19,7 @@ function Header() {
   useEffect(() => {
     window.addEventListener('scroll',handleScroll)
   })
-let navbarClasses=['navbar'];
+  let navbarClasses=['navbar'];
   if(scrolled){
     navbarClasses.push('scrolled');
   }
@@ -28,7 +29,7 @@ let navbarClasses=['navbar'];
       <h1 className="name">Amanda DiNoto</h1>
       <h2 className="title">Full-Stack Engineer</h2>
       <nav className={navbarClasses.join(" ")}>
-        <a href="#about"><h3>About</h3></a>
+        <a href="#bio"><h3>About</h3></a>
         <a href="#projects"><h3>Projects</h3></a>
         <a href="#contact"><h3>Contact</h3></a>
         <a href={resume} download="amanda_dinoto_resume"><h3>Resume</h3></a>

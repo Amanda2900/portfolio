@@ -1,5 +1,5 @@
 header {
-  background-color: rgba(217, 236, 252, 0.756);
+  background-color: rgba(217, 236, 252, 0.838);
 }
 
 nav {
@@ -28,7 +28,6 @@ nav {
 
 nav > a {
   justify-content: space-around;
-  text-decoration: none;
   color: black;
 }
 

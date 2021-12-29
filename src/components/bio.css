@@ -1,0 +1,19 @@
+span {
+  font-weight: bold;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+}
+
+.profile > img {
+  border-radius: 15px;
+  margin: 20px;
+  width: 20%;
+}
+
+.bio-skills {
+  width: 30%;
+  margin: 0 30px;
+}
