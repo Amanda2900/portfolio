@@ -30,7 +30,3 @@ nav > a {
   justify-content: space-around;
   color: black;
 }
-
-nav > a:hover {
-  text-decoration: underline;
-}
