@@ -22,6 +22,7 @@
 
 .project-description > h2 {
   font-size: 2rem;
+  font-weight: bold;
 }
 
 p > a {
