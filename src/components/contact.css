@@ -1,0 +1,26 @@
+.links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.icon {
+  width: 75px;
+  padding: 20px 50px;
+}
+
+.github {
+  width: 125px;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .icon {
+    width: 50px;
+    padding: 20px;
+  }
+  
+  .github {
+    width: 85px;
+  }
+}

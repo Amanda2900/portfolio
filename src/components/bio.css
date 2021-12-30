@@ -10,13 +10,36 @@ span {
 .profile > img {
   border-radius: 15px;
   margin: 20px;
-  width: 425px;
-  height: 625px;
-  border: solid 3px black;
+  width: 500px;
+  height: 725px;
+  border: solid 3px rgb(43, 6, 49);
   box-shadow: 5px 5px 6px -1px #AAA;
 }
 
 .bio-skills {
-  width: 30%;
-  margin: 0 30px;
+  width: 40%;
+  margin: 0 70px;
+  padding-top: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .profile {
+    flex-direction: column;
+  }
+
+  .profile > img {
+    width: 300px;
+    height: 450px;
+    margin-left: 30px;
+  }
+
+  .bio-skills {
+    width: 90%;
+    margin: 20px;
+    font-size: 1.8rem;
+  }
+
+  .bio-skills > p {
+    font-size: 1.8rem;
+  }
 }

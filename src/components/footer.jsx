@@ -1,10 +1,11 @@
 import React from 'react';
+import './footer.css'
 
 function Footer() {
   return (
     <footer>
-      <h3>Made with React</h3>
-      <h3> &#169; Amanda DiNoto 2021</h3>
+      <p>Made with React</p>
+      <p> &#169; Amanda DiNoto 2021</p>
     </footer>
   );
 }

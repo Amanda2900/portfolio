@@ -1,12 +1,14 @@
 header {
-  background-color: rgba(217, 236, 252, 0.838);
+  background-image: url('../assets/flowers.jpg');
+  background-size: contain;
 }
 
 nav {
   display: flex;
   justify-content: space-around;
   font-size: 1.8rem;
-  border-bottom: 3px solid black;
+  border-bottom: 2px solid #debe85;
+  background-color: #f7f7f77c;
 }
 
 .name {
@@ -23,10 +25,31 @@ nav {
   position: fixed;
   top: 0;
   width: 100vw;
-  background-color: rgba(217, 236, 252, 0.756)
+  background-color: #f7f7f7e0;
+  border-bottom: 2px solid rgb(43, 6, 49);
 }
 
 nav > a {
   justify-content: space-around;
-  color: black;
+}
+
+@media only screen and (max-width: 768px) {
+  .name {
+    margin: 0;
+    padding-top: 50px;
+    font-size: 4rem;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  nav > a {
+    font-size: 1.5rem;
+  }
+
 }
