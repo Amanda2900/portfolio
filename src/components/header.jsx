@@ -29,10 +29,8 @@ function Header() {
       <h1 className="name">Amanda DiNoto</h1>
       <h2 className="title">Full-Stack Engineer</h2>
       <nav className={navbarClasses.join(" ")}>
-        <div className="hide">
-          <a href="#bio"><h3>About</h3></a>
-          <a href="#projects"><h3>Projects</h3></a>
-        </div>
+        <a href="#bio" className="hide"><h3 className="hide">About</h3></a>
+        <a href="#projects" className="hide"><h3 className="hide">Projects</h3></a>
         <a href="#contact"><h3>Contact</h3></a>
         <a href={resume} download="amanda_dinoto_resume"><h3>Resume</h3></a>
       </nav>

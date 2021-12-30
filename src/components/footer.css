@@ -10,7 +10,7 @@ footer > p {
   font-size: 1.5rem;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1650px) {
   footer > p {
     font-size: 1.2rem;
   }

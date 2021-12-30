@@ -7,7 +7,7 @@ span {
   justify-content: center;
 }
 
-.profile > img {
+.pic > img {
   border-radius: 15px;
   margin: 20px;
   width: 500px;
@@ -22,12 +22,26 @@ span {
   padding-top: 50px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1650px) {
   .profile {
     flex-direction: column;
   }
 
-  .profile > img {
+  .bio-skills {
+    width: 90%;
+    padding: 0;
+    margin: 20px;
+    margin-left: 50px;
+    font-size: 1.8rem;
+  }
+
+  .bio-skills > p {
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .pic > img {
     width: 300px;
     height: 450px;
     margin-left: 30px;
@@ -35,11 +49,8 @@ span {
 
   .bio-skills {
     width: 90%;
+    padding: 0;
     margin: 20px;
-    font-size: 1.8rem;
-  }
-
-  .bio-skills > p {
     font-size: 1.8rem;
   }
 }
