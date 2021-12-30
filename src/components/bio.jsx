@@ -7,7 +7,7 @@ function Bio() {
 
   const handleScroll = () => {
     const offset = window.scrollY;
-    if(offset > 320 ){
+    if(offset > 410 ){
       setExtraTop(true);
     }
     else{
