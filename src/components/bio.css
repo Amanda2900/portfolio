@@ -26,7 +26,7 @@ span {
   padding-top: 50px;
 }
 
-@media only screen and (max-width: 1650px) {
+@media only screen and (max-width: 1400px) {
   .profile {
     flex-direction: column;
   }

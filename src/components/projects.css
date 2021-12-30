@@ -29,7 +29,7 @@ p > a {
   font-weight: bold;
 }
 
-@media only screen and (max-width: 1650px) {
+@media only screen and (max-width: 1400px) {
   .project-div {
     flex-direction: column;
     justify-content: center;

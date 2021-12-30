@@ -39,7 +39,7 @@ nav > a {
   justify-content: space-around;
 }
 
-@media only screen and (max-width: 1650px) {
+@media only screen and (max-width: 1400px) {
   .name {
     margin: 0;
     padding-top: 50px;

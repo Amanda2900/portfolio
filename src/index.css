@@ -38,7 +38,7 @@ section > h1 {
   
 }
 
-@media only screen and (max-width: 1650px) {
+@media only screen and (max-width: 1400px) {
 
   section {
     padding-top: 20px;
