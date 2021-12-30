@@ -1,6 +1,6 @@
 <h1>Amanda DiNoto's Portfolio</h1>
 
-Welcome! Thanks for taking a look at my git hub. To view my portfolio, click here.
+Welcome! Thanks for taking a look at my git hub. To view my portfolio, click <a href="https://amanda-dinoto.netlify.app/">here.</a>
 
 <h2>Credits</h2>
 

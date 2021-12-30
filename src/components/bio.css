@@ -14,8 +14,8 @@ span {
 .pic > img {
   border-radius: 15px;
   margin: 20px;
-  width: 500px;
-  height: 725px;
+  width: 420px;
+  height: 605px;
   border: solid 3px rgb(43, 6, 49);
   box-shadow: 5px 5px 6px -1px #AAA;
 }
@@ -31,16 +31,24 @@ span {
     flex-direction: column;
   }
 
+  .pic > img {
+    border-radius: 15px;
+    margin: 20px;
+    width: 300px;
+    height: 450px;
+    border: solid 3px rgb(43, 6, 49);
+    box-shadow: 5px 5px 6px -1px #AAA;
+  }
+
   .bio-skills {
     width: 90%;
     padding: 0;
     margin: 20px;
     margin-left: 50px;
-    font-size: 1.8rem;
   }
 
   .bio-skills > p {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -56,5 +64,9 @@ span {
     padding: 0;
     margin: 20px;
     font-size: 1.8rem;
+  }
+
+  .extraTop{
+    margin-top: 100px;
   }
 }
