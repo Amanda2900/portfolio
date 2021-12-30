@@ -7,6 +7,10 @@ span {
   justify-content: center;
 }
 
+.extraTop{
+  margin-top: 130px;
+}
+
 .pic > img {
   border-radius: 15px;
   margin: 20px;

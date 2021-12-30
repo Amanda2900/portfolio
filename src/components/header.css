@@ -1,6 +1,7 @@
 header {
   background-image: url('../assets/flowers.jpg');
   background-size: contain;
+  height: auto;
 }
 
 nav {
@@ -9,6 +10,9 @@ nav {
   font-size: 1.8rem;
   border-bottom: 2px solid #debe85;
   background-color: #f7f7f77c;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
 }
 
 .name {

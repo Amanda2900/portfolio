@@ -1,10 +1,30 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import image from '../assets/profile-pic.jpg';
 import './bio.css'
 
 function Bio() {
+  const [extraTop, setExtraTop] = React.useState(false);
+
+  const handleScroll = () => {
+    const offset = window.scrollY;
+    if(offset > 320 ){
+      setExtraTop(true);
+    }
+    else{
+      setExtraTop(false);
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener('scroll',handleScroll)
+  })
+  let navbarClasses=['section1'];
+  if(extraTop){
+    navbarClasses.push('extraTop');
+  }
+
   return (
-    <section className="section1" id="bio">
+    <section className={navbarClasses.join(" ")} id="bio">
       <h1>About Me</h1>
       <div className="profile">
         <div className="pic">
