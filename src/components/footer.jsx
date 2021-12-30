@@ -4,7 +4,8 @@ import './footer.css'
 function Footer() {
   return (
     <footer>
-      <p>Made with React</p>
+      <p className="hide">Made with React</p>
+      <p><a href="https://github.com/Amanda2900/portfolio">Credits</a></p>
       <p> &#169; Amanda DiNoto 2021</p>
     </footer>
   );

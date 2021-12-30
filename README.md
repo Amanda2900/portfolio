@@ -1,8 +1,10 @@
 <h1>Amanda DiNoto's Portfolio</h1>
 
-Welcome! Thanks for taking a look at my git hub. To view my portfolio site, which was created using react, click here.
+Welcome! Thanks for taking a look at my git hub. To view my portfolio, click here.
 
 <h2>Credits</h2>
+
+<li>This site was created using React.</li>
 
 <li>Favicon: <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></li>
 
