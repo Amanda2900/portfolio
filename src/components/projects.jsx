@@ -15,7 +15,7 @@ function Projects() {
         </div>
         <div className="project-description">
           <h2>All The Feels</h2>
-          <p>An application that allows users to upload their own artwork, and comment on and view artwork created by other users. It is a full stack application, made with React, Node.js, Express, MongoDB,and CSS. </p>
+          <p>An application that allows users to upload their own artwork, and comment on and view artwork created by other users. It is a full stack application, made with React, Node.js, Express, MongoDB, and CSS. </p>
           <p>Project is deployed <a href="https://allofthefeels.herokuapp.com/" rel="noopener noreferrer" target="_blank">here</a>. Github for All The Feels can be viewed <a href="https://github.com/Amanda2900/allTheFeels" rel="noopener noreferrer" target="_blank">here</a>.</p>
         </div>
       </div>
