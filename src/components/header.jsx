@@ -27,7 +27,7 @@ function Header() {
   return (
     <header>
       <h1 className="name">Amanda DiNoto</h1>
-      <h2 className="title">Full-Stack Engineer</h2>
+      <h2 className="title">Software Engineer</h2>
       <nav className={navbarClasses.join(" ")}>
         <a href="#bio" className="hide"><h3 className="hide">About</h3></a>
         <a href="#projects" className="hide"><h3 className="hide">Projects</h3></a>
