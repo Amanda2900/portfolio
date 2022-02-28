@@ -32,10 +32,10 @@ function Bio() {
         </div>
         <div className="bio-skills">
           <p>
-            My name is Amanda DiNoto. I am a software engineer who enjoys making programs that are engaging and easily accessible to everyone. I use my resourcefulness to tackle complicated problems. I am passionate about contributing to a well organized, open minded environment that fosters creativity and collaboration. My background in film and theater production enables me to easily adapt to new situations, quickly think of efficient solutions and collaborate well with a team.
+            I am a software engineer who enjoys making engaging and easily accessible programs. I use my resourcefulness to tackle complicated problems. I am passionate about contributing to a well organized, open minded environment that fosters creativity. My background in film and theater production enables me to easily adapt to new situations, quickly think of efficient solutions and collaborate well with a team.
           </p>
           <p>
-            <span>Skills: </span>JavaScript, HTML, CSS, React, Node, Express, EJS, Mongoose, MongoDB, Django, Python, and Photoshop.
+            <span>Skills: </span>JavaScript, HTML, CSS, React, Node, Express, EJS, SQL, Mongoose/MongoDB, Django, Python, Git, and Photoshop.
           </p>
         </div>
       </div>
