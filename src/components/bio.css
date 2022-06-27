@@ -2,20 +2,26 @@ span {
   font-weight: bold;
 }
 
+.name {
+  margin: 0;
+  font-size: 4rem;
+}
+
+.title {
+  margin-top: 0;
+  font-size: 2.5rem;
+}
+
 .profile {
   display: flex;
   justify-content: center;
 }
 
-.extraTop{
-  margin-top: 130px;
-}
-
 .pic > img {
   border-radius: 15px;
   margin: 20px;
-  width: 420px;
-  height: 605px;
+  width: 330px;
+  height: 450px;
   border: solid 3px rgb(43, 6, 49);
   box-shadow: 5px 5px 6px -1px #AAA;
 }
@@ -23,10 +29,10 @@ span {
 .bio-skills {
   width: 40%;
   margin: 0 70px;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1000px) {
   .profile {
     flex-direction: column;
   }
@@ -34,8 +40,6 @@ span {
   .pic > img {
     border-radius: 15px;
     margin: 20px;
-    width: 300px;
-    height: 450px;
     border: solid 3px rgb(43, 6, 49);
     box-shadow: 5px 5px 6px -1px #AAA;
   }
@@ -46,16 +50,10 @@ span {
     margin: 20px;
     margin-left: 50px;
   }
-
-  .bio-skills > p {
-    font-size: 1.5rem;
-  }
 }
 
 @media only screen and (max-width: 768px) {
   .pic > img {
-    width: 300px;
-    height: 450px;
     margin-left: 30px;
   }
 
@@ -64,9 +62,5 @@ span {
     padding: 0;
     margin: 20px;
     font-size: 1.8rem;
-  }
-
-  .extraTop{
-    margin-top: 100px;
   }
 }

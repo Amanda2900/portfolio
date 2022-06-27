@@ -1,11 +1,16 @@
 .project-div {
   display: flex;
+  align-items: center;
   margin: 50px;
 }
 
 .project-description {
   width: 50%;
   margin: 20px;
+}
+
+.subtitle {
+  margin: 10px 0;
 }
 
 .project-img {
@@ -45,13 +50,9 @@ p > a {
   }
 
   .project-description {
-    width: 95%;
+    width: 90%;
     margin: 10px;
     padding-top: 20px;
-  }
-
-  .project-description > p {
-    font-size: 1.5rem;
   }
 
 }

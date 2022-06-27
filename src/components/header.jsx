@@ -1,38 +1,20 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import resume from '../assets/Amanda_DiNoto_resume.pdf';
 import './header.css';
 
 function Header() {
 
-  const [scrolled, setScrolled] = React.useState(false);
-
-  const handleScroll = () => {
-    const offset = window.scrollY;
-    if(offset > 320 ){
-      setScrolled(true);
-    }
-    else{
-      setScrolled(false);
-    }
-  }
-
-  useEffect(() => {
-    window.addEventListener('scroll',handleScroll)
-  })
-  let navbarClasses=['navbar'];
-  if(scrolled){
-    navbarClasses.push('scrolled');
-  }
-
   return (
     <header>
-      <h1 className="name">Amanda DiNoto</h1>
-      <h2 className="title">Software Engineer</h2>
-      <nav className={navbarClasses.join(" ")}>
-        <a href="#bio" className="hide"><h3 className="hide">About</h3></a>
-        <a href="#projects" className="hide"><h3 className="hide">Projects</h3></a>
-        <a href="#contact"><h3>Contact</h3></a>
-        <a href={resume} download="amanda_dinoto_resume"><h3>Resume</h3></a>
+      <nav className="nav">
+        <div className="container">
+          <ul>
+            <li><a href="#bio" className="hide">About</a></li>
+            <li><a href="#projects" className="hide">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href={resume} download="amanda_dinoto_resume">Resume</a></li>
+          </ul>
+        </div>
       </nav>
     </header>
   );
