@@ -26,7 +26,7 @@ function Projects() {
         <div className="project-description">
           <h2 className="subtitle">Larkspur's Apothecary</h2>
           <p>A mock up of a fictional apothecary where the user can browse herbs, then create their own remedies and view any that are made by other users. It is a full stack application, made with Python, Django, AWS, HTML, and CSS. </p>
-          <p>Project is deployed <a href="https://larkspurs-apothecary.herokuapp.com/" rel="noopener noreferrer" target="_blank">here</a>. Github for Larkspur's Apothecary can be viewed <a href="https://larkspurs-apothecary.fly.dev" rel="noopener noreferrer" target="_blank">here</a>.</p>
+          <p>Project is deployed <a href="https://larkspurs-apothecary.fly.dev" rel="noopener noreferrer" target="_blank">here</a>. Github for Larkspur's Apothecary can be viewed <a href="https://github.com/Amanda2900/larkspursapothecary" rel="noopener noreferrer" target="_blank">here</a>.</p>
         </div>
       </div>
       <div className="project-div">
