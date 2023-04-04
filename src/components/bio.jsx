@@ -14,10 +14,10 @@ function Bio() {
         </div>
         <div className="bio-skills">
           <p>
-            I am a software engineer who enjoys making engaging and easily accessible programs. I use my resourcefulness to tackle complicated problems. I am passionate about contributing to a well organized, open minded environment that fosters creativity. My background in film and theater production enables me to easily adapt to new situations, quickly think of efficient solutions and collaborate well with a team.
+            As a professional software engineer, I am dedicated to creating engaging and user-friendly programs that enhance the lives of users. I leverage my resourcefulness and problem-solving skills to tackle complex technical challenges. I am deeply passionate about contributing to a well-organized and open-minded environment that encourages creativity and innovation. Drawing from my background in film and theater production, I possess the ability to adapt quickly to new situations, think critically, and collaborate effectively with team members. My diverse experiences have honed my skills in efficient problem-solving and teamwork, making me a valuable asset to any software engineering team.
           </p>
           <p>
-            <span>Skills: </span>JavaScript, HTML, CSS, React, Node, Express, EJS, SQL, Mongoose/MongoDB, Django, Python, Git, and Photoshop.
+            <span>Skills: </span>JavaScript, HTML, CSS, React, Node.js, Express, Python, Django, Photoshop, SQL, PostgreSQL, MongoDB, Tailwind CSS, Git, GitHub, Agile Workflow, WordPress, and REST APIs.
           </p>
         </div>
       </div>
