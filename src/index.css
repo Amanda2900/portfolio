@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&family=Source+Sans+Pro:wght@400;600&display=swap');
 
 :root {
-  --pink: rgb(252, 187, 251);
+  --pink: rgb(247, 203, 246);
   --purple: rgb(38, 11, 38);
 }
 body {
@@ -19,7 +19,6 @@ code {
 }
 
 section {
-  padding-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;

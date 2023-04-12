@@ -7,7 +7,7 @@ import email from '../assets/email.png'
 function Contact() {
   return (
     <section id="contact">
-      <h1>Contact</h1>
+      <h2>Contact</h2>
       <div className="links">
         <a href="mailto:amanda.dinoto@gmail.com"><img className="icon" src={email} alt="email icon" /></a>
         <a href="https://www.linkedin.com/in/amanda-dinoto/" rel="noopener noreferrer" target="_blank"><img className="icon" src={linkedin} alt="linkedIn logo" /></a>
