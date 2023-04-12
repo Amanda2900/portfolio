@@ -10,6 +10,10 @@
   margin: 20px 50px;
 }
 
+.project-div a {
+  color: var(--purple);
+}
+
 .subtitle {
   font-size: 1.75rem;
 }

@@ -1,13 +1,13 @@
 footer {
   display: flex;
-  font-weight: bold;
-  margin: 10px 50px 20px 50px;
-  justify-content: center;
-  border-top: 2px solid rgb(43, 6, 49);
+  padding: 10px 50px 20px 50px;
+  justify-content: right;
+  background: var(--purple);
 }
 
-footer > p, footer >a {
+footer a {
   font-size: 1.5rem;
+  color: var(--pink);
 }
 
 @media only screen and (max-width: 1400px) {

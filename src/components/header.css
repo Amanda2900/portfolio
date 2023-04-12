@@ -31,7 +31,7 @@ header {
 }
 
 .nav a {
-  color: var(--purple);
+  color: var(--pur);
   font-size: 2rem;
   text-decoration: none;
   padding: 7px 15px;
