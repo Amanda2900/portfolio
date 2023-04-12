@@ -8,7 +8,7 @@ header {
 }
 
 .nav {
-  background-color: rgba(247,247,247,0.9);
+  background-color: rgba(252, 187, 251,0.9);
   position: fixed;
   top: 0;
   left: 0;
@@ -31,7 +31,7 @@ header {
 }
 
 .nav a {
-  color: black;
+  color: var(--pur);
   font-size: 2rem;
   text-decoration: none;
   padding: 7px 15px;

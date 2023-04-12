@@ -1,7 +1,7 @@
 import React from 'react';
 import './contact.css'
 import linkedin from '../assets/linkedin-logo.png'
-import github from '../assets/Octocat.png'
+import github from '../assets/github-icon.png'
 import email from '../assets/email.png'
 
 function Contact() {

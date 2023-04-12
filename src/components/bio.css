@@ -12,55 +12,46 @@ span {
   font-size: 2.5rem;
 }
 
-.profile {
+.pic {
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin: 100px;
 }
 
 .pic > img {
-  border-radius: 10%;
-  margin: 20px;
-  width: 330px;
-  height: 450px;
-  border: solid 3px rgb(43, 6, 49);
-  box-shadow: 5px 5px 6px -1px #AAA;
+  border-radius: 50%;
+  margin: 100px;
+  width: 250px;
+  border: solid 3px var(--purple);
 }
 
-.bio-skills {
-  width: 40%;
-  margin: 0 70px;
-  padding-top: 30px;
+.profile {
+  background: var(--purple);
+  color: var(--pink);
+  padding: 50px;
+}
+
+.profile > h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;;
 }
 
 @media only screen and (max-width: 1000px) {
-  .profile {
+
+  .pic {
+    display: flex;
     flex-direction: column;
   }
 
   .pic > img {
-    border-radius: 15px;
     margin: 20px;
-    border: solid 3px rgb(43, 6, 49);
-    box-shadow: 5px 5px 6px -1px #AAA;
-  }
-
-  .bio-skills {
-    width: 90%;
-    padding: 0;
-    margin: 20px;
-    margin-left: 50px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .pic > img {
-    margin-left: 30px;
-  }
-
-  .bio-skills {
-    width: 90%;
-    padding: 0;
-    margin: 20px;
+  .profile {
+    padding: 25px;
     font-size: 1.8rem;
   }
 }
