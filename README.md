@@ -1,11 +1,14 @@
-<h1>Amanda DiNoto's Portfolio</h1>
+# Amanda DiNoto's Portfolio
 
-Welcome! Thanks for taking a look at my github. To view my portfolio, click <a href="https://amanda-dinoto.netlify.app/">here.</a>
+Welcome! Thanks for taking a look at my github. View my portfolio [here](https://amanda-dinoto.netlify.app/)
 
-<h2>Credits</h2>
+## Screenshot
+![Portfolio Screenshot](src/assets/portfolio-screenshot.png)
 
-<li>This site was created using React.</li>
+## Credits
 
-<li>Favicon: <a href="https://www.flaticon.com/free-icons/letter-a" title="letter a icons">Letter a icons created by icon_small - Flaticon</a>
+- Favicon: [Laisa Islam Ani - Flaticon](https://www.flaticon.com/authors/laisa-islam-ani)
 
-<li>Email logo: <a href="https://www.flaticon.com/authors/uniconlabs" title="Uniconlabs">Uniconlabs</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></li>
+- Email logo: [Uniconlabs - Flaticon](https://www.flaticon.com/authors/uniconlabs)
+
+- Github logo: [Kindpng](https://www.kindpng.com/imgv/wooobw_free-files-github-github-white-logo-png-transparent/)
