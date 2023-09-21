@@ -16,7 +16,7 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 100px;
+  margin: 70px;
 }
 
 .pic > img {
@@ -27,9 +27,8 @@ span {
 }
 
 .profile {
-  background: var(--purple);
-  color: var(--pink);
   padding: 50px;
+  width: 80%;
 }
 
 .profile > h2 {

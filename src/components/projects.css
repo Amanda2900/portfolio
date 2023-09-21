@@ -1,5 +1,6 @@
 .project-row {
   display: flex;
+  align-items: start;
 }
 
 .project-div {
@@ -8,6 +9,7 @@
   justify-content: center;
   align-items: center;
   margin: 20px 50px;
+  width: 50%;
 }
 
 .project-div a {
@@ -18,10 +20,20 @@
   font-size: 1.75rem;
 }
 
+.subsubtitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
 .project-img > a >img {
   width: 500px;
   border-radius: 15px;
   border: solid 3px var(--purple);
+}
+
+.links a{
+  padding: 0 20px;
+  font-weight: bold;
 }
 
 #projects > h2 {

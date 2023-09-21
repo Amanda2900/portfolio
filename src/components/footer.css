@@ -1,19 +1,11 @@
 footer {
   display: flex;
-  padding: 10px 50px 20px 50px;
+  padding: 0px 50px;
   justify-content: right;
-  background: var(--purple);
 }
 
 footer a {
-  font-size: 1.5rem;
-  color: var(--pink);
-}
-
-@media only screen and (max-width: 1400px) {
-  footer > p {
-    font-size: 1.2rem;
-  }
+  font-size: 1.2rem;
 }
 
 @media only screen and (max-width: 756px) {

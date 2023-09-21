@@ -20,7 +20,7 @@ function Bio() {
         </p>
         <h2>Skills</h2>
         <p>
-          JavaScript, HTML, CSS, React, Node.js, Express, Python, Django, Photoshop, SQL, PostgreSQL, MongoDB, Tailwind CSS, Git, GitHub, Agile Workflow, WordPress, and REST APIs.
+        JavaScript, HTML, CSS, React, Node.js, TypeScript, Next.js, Express, Python, Django, Photoshop, SQL, PostgreSQL, MongoDB, TailwindCSS, WordPress, and REST APIs
         </p>
       </div>
     </section>

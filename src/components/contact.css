@@ -6,12 +6,7 @@
 
 .icon {
   width: 80px;
-  padding: 20px 50px;
-}
-
-#contact {
-  background: var(--purple);
-  color: var(--pink);
+  padding: 10px 50px;
 }
 
 #contact > h2 {
@@ -24,7 +19,7 @@
 
   .icon {
     width: 60px;
-    padding: 20px;
+    padding: 0px 30px;
   }
   
 }

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&family=Source+Sans+Pro:wght@400;600&display=swap');
 
 :root {
-  --pink: rgb(247, 203, 246);
+  --pink: rgb(244, 221, 243);
   --purple: rgb(38, 11, 38);
 }
 body {
@@ -42,10 +42,6 @@ h1 {
 }
 
 @media only screen and (max-width: 1400px) {
-
-  section {
-    padding-top: 20px;
-  }
 
   section > h1 {
     font-size: 3rem;
