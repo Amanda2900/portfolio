@@ -1,6 +1,6 @@
 .project-row {
   display: flex;
-  align-items: start;
+  align-items: center;
 }
 
 .project-div {
@@ -46,10 +46,15 @@
   .project-img > a > img {
     width: 300px;
   }
+
+  .project-row {
+    align-items: start;
+  }
 }
 
 @media only screen and (max-width: 860px) {
   .project-row {
     flex-direction: column;
+    align-items: center;
   }
 }
