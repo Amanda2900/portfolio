@@ -1,5 +1,7 @@
 import React from 'react';
 import './projects.css'
+import SS8 from '../assets/ea-screenshot.png';
+import SS7 from '../assets/calc_screenshot.png';
 import SS6 from '../assets/conn-screenshot.png';
 import SS5 from '../assets/ssl-screenshot.png';
 import SS4 from '../assets/atf-screenshot.png';
@@ -14,11 +16,35 @@ function Projects() {
       <div className="project-row">
         <div className="project-div">
           <div className="project-img">
+            <a href="https://github.com/Amanda2900/explore-art" rel="noopener noreferrer" target="_blank"><img src={SS8} alt="explore art search page" /></a>
+          </div>
+          <div className="project-description">
+            <h3 className="subtitle">Explore Art</h3>
+            <p className="subsubtitle">Next.js, React, JavaScript, and TailwindCSS</p>
+            <p>In Explore Art, I'm delving into the Art Institute of Chicago's API with React and Next.js, aiming to create an immersive digital experience that seamlessly showcases the museum's extensive collection. Users are able to search the public domain images available through the Art Institute's API and then view hi-resolution images of each piece.</p> 
+            <p className="links"><a href="https://github.com/Amanda2900/explore-art" rel="noopener noreferrer" target="_blank">Deployed Site</a><a href="https://github.com/Amanda2900/explore-art" rel="noopener noreferrer" target="_blank">Github</a></p>
+          </div>
+        </div>
+        <div className="project-div">
+          <div className="project-img">
+            <a href="https://github.com/Amanda2900/calculator" rel="noopener noreferrer" target="_blank"><img src={SS7} alt="calculator page" /></a>
+          </div>
+          <div className="project-description">
+            <h3 className="subtitle">Calculator</h3>
+            <p className="subsubtitle">JavaScript, CSS, and HTML</p>
+            <p>In an effort to keep coding, no matter how small, and to practice vanilla JavaScript, I built this calculator. I hope you enjoy calculating with it as much as I enjoyed building it!</p>
+            <p className="links"><a href="https://calc-fun.netlify.app/" rel="noopener noreferrer" target="_blank">Deployed Site</a><a href="https://github.com/Amanda2900/calculator" rel="noopener noreferrer" target="_blank">Github</a></p>
+          </div>
+        </div>
+      </div>
+      <div className="project-row">
+        <div className="project-div">
+          <div className="project-img">
             <a href="https://github.com/Full-Stack-Collective/connectient" rel="noopener noreferrer" target="_blank"><img src={SS6} alt="connectient landing page" /></a>
           </div>
           <div className="project-description">
             <h3 className="subtitle">Connectient</h3>
-            <p className="subsubtitle">Next.js, React, TypeScript, Supabase, Cypress, and TailwindCSS</p>
+            <p className="subsubtitle">Next.js, React, TypeScript, Supabase, and TailwindCSS</p>
             <p>Connectient is a web application designed to streamline the process of requesting medical appointments for patients while providing healthcare providers with a powerful scheduling and management tool. With a user-friendly interface, robust features, and a commitment to enhancing the patient experience, Connectient aims to bridge the gap between patients and medical practices. </p> 
             <p className="links"><a href="https://connectient.co" rel="noopener noreferrer" target="_blank">Deployed Site</a><a href="https://github.com/Full-Stack-Collective/connectient" rel="noopener noreferrer" target="_blank">Github</a></p>
           </div>
