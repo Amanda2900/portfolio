@@ -33,7 +33,7 @@ function Projects() {
             <h3 className="subtitle">Calculator</h3>
             <p className="subsubtitle">JavaScript, CSS, and HTML</p>
             <p>In an effort to keep coding, no matter how small, and to practice vanilla JavaScript, I built this calculator. I hope you enjoy calculating with it as much as I enjoyed building it!</p>
-            <p className="links"><a href="https://calc-fun.netlify.app/" rel="noopener noreferrer" target="_blank">Deployed Site</a><a href="https://github.com/Amanda2900/calculator" rel="noopener noreferrer" target="_blank">Github</a></p>
+            <p className="links"><a href="https://calculator.amanda-dinoto.com/" rel="noopener noreferrer" target="_blank">Deployed Site</a><a href="https://github.com/Amanda2900/calculator" rel="noopener noreferrer" target="_blank">Github</a></p>
           </div>
         </div>
       </div>
