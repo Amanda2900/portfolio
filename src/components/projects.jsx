@@ -22,7 +22,7 @@ function Projects() {
             <h3 className="subtitle">Explore Art</h3>
             <p className="subsubtitle">Next.js, React, JavaScript, and TailwindCSS</p>
             <p>In Explore Art, I'm delving into the Art Institute of Chicago's API with React and Next.js, aiming to create an immersive digital experience that seamlessly showcases the museum's extensive collection. Users are able to search the public domain images available through the Art Institute's API and then view hi-resolution images of each piece.</p> 
-            <p className="links"><a href="https://explore-art.amanda-dinoto.com/" rel="noopener noreferrer" target="_blank">Deployed Site</a><a href="https://github.com/Amanda2900/explore-art" rel="noopener noreferrer" target="_blank">Github</a></p>
+            <p className="links"><a href="https://explore-art.vercel.app/" rel="noopener noreferrer" target="_blank">Deployed Site</a><a href="https://github.com/Amanda2900/explore-art" rel="noopener noreferrer" target="_blank">Github</a></p>
           </div>
         </div>
         <div className="project-div">
